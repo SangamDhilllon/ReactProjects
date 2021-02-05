@@ -7,6 +7,7 @@ import List from './List';
 function App() {
 
   const [people, setPeople] = useState(data);
+//data from list
   return <main>
     <section className="container">
       <h3>{people.length} birthdays today</h3>
